@@ -106,23 +106,25 @@ fieldset {
 
 
 .enlinea {
+    padding: top 20px;;
     display: grid;
     grid-template-columns: 2, 1fr 1fr;
     grid-area: enlinea;
     width: 88%;
-    padding: 5%;
-    margin: 20px;
+    padding-top: 13%;
+margin-top: 8%;
 
 
 }
 
 .enlinea2 {
+    
     display: grid;
     grid-template-columns: 2, 1fr 1fr;
     grid-area: enlinea2;
     width: 88%;
-    padding: 5%;
-    margin: 20px;
+  padding-top: 13%;
+  margin: 5%;
 
 }
 
