@@ -10,7 +10,26 @@ body {
 
 }
 
+p {
+    font-size: 20px;
+}
 
+.nosotros {
+    color: white;
+
+}
+
+h5{
+    color: white;
+    font-size: 30px;
+}
+
+.nosotrosImg {
+    height: 400px;
+    width: 100%;
+    padding:0;
+    margin: 20%;
+}
 
 .carousel-item {
     height: 500px;
@@ -105,6 +124,7 @@ footer {
     width: 88%;
     padding: 5%;
     margin: 20px;
+    
 
 }
 
@@ -143,6 +163,11 @@ footer {
         grid-template-rows: 3fr 3fr;
     }
 
+    .carousel-item {
+        height: 300x;
+        width: 100%;
+    }
+
     .enlinea {
         display: grid;
 
@@ -170,11 +195,12 @@ footer {
     footer {
         display: grid;
         grid-area: piee;
-    
+        justify-content: center;
+        align-items: center;
         color: whitesmoke;
         text-align: center;
         font-size: 0.8em;
-      
+
         background-image: linear-gradient(to right top, #000000, #14090f, #1d111b, #231828, #251f38, #292f4b, #2c405e, #2c5270, #417087, #5d8f9e, #7daeb3, #a2cdca);
     }
 }
